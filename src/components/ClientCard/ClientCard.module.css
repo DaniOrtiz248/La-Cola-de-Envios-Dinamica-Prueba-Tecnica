@@ -1,0 +1,32 @@
+.ClientCard {
+  width: 220px;
+  padding: 12px;
+  border-radius: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 8px;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: var(--text);
+}
+
+.ClientCard input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--primary);
+}
+
+.ClientCard p {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.ClientCard p + p {
+  color: var(--muted);
+  font-size: 18px;
+  font-weight: 400;
+}

@@ -1,0 +1,20 @@
+.CampaignButton {
+  padding: 14px 28px;
+  border-radius: 8px;
+  background-color: var(--primary);
+  color: #ffffff;
+  font-weight: 700;
+  display: block;
+  margin: 32px auto;
+  font-size: 16px;
+  border: none;
+}
+
+.CampaignButton:hover:not(:disabled) {
+  opacity: 0.95;
+}
+
+.CampaignButton:disabled {
+  opacity: 0.6;
+}
+
